@@ -2,21 +2,21 @@
 
 1. Project Overview
 
-This project involves designing and implementing a device capable of actively measuring distances in all directions in the horizontal plane. 
+    This project involves designing and implementing a device capable of actively measuring distances in all directions in the horizontal plane. 
 
 2. Features
 - 360° Distance Measurement: Utilizes a laser distance sensor to scan the environment.
 - Multiple Data Transmission Modes:
 
-WiFi (UDP Protocol)
+  - WiFi (UDP Protocol)
 
-Serial Communication (UART)
+  - Serial Communication (UART)
 
 - Dual Power Options:
 
-Micro-USB
+  - Micro-USB
 
-12V Barrel Jack Adapter
+  - 12V Barrel Jack Adapter
 
 - Maximum Detection Range: Up to 8 meters.
 
@@ -33,24 +33,24 @@ Micro-USB
 
 4. CAD design
 
-Case for this device was designed in Fusion360 and then printed on 3D printer.
+    Case for this device was designed in Fusion360 and then printed on 3D printer.
 
-![Description](images/overview.jpg)
+    ![Description](image/overview.jpg)
 
 5. Circuit design
 
-The PCB was custom-designed to optimize component layout, reduce interference, and ensure stable power delivery. 
-Special attention was given to grounding and voltage regulation.
+    The PCB was custom-designed to optimize component layout, reduce interference, and ensure stable power delivery. 
+    Special attention was given to grounding and voltage regulation.
 
 6. Data visualization
 
-To visualize measurement data, an external application using ROS2 (Robot Operating System 2) was developed. 
-The program processes serial/UDP data and displays it in RViz.
+    To visualize measurement data, an external application using ROS2 (Robot Operating System 2) was developed. 
+    The program processes serial/UDP data and displays it in RViz.
 
-Example:
+    Example:
 
-![Description](images/sample.jpg)
+    ![Description](image/sample.jpg)
 
-Video:
+    Video:
 
-[![Watch the video](https://img.youtube.com/vi/XMDhlz0U_hY/0.jpg)](https://www.youtube.com/watch?v=XMDhlz0U_hY)
+    [![Watch the video](https://img.youtube.com/vi/XMDhlz0U_hY/0.jpg)](https://www.youtube.com/watch?v=XMDhlz0U_hY)
